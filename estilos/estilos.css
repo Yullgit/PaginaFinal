@@ -1,14 +1,76 @@
-*{
-    background-color: #95541c;
+* {
+    background: linear-gradient(90deg, rgba(125, 157, 167, 0.144) 10%, rgba(85, 102, 102, 0.89) 90%);
     margin: 0;
     padding: 20px;
 }
-#container{
-background-image: url("../img/simbolo.jpg");
+
+
+#container {
+    background-image: url("../img/simbolo.jpg");
+    background-color: rgba(43, 13, 13, 0.8);
+    background-blend-mode: overlay; 
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
-    max-width: 990px;
+    max-width: 890px;
     margin: auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    border: 2px solid #4d0303;
+    text-align: center;
+    position: relative;
+
 }
+
+.containerPequeño {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;/*Cambia el orden*/
+}
+
+.imagenPrincipal {
+    width: 225px;
+    border-radius: 45px;
+    margin: auto;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+
+}
+
+h1 { 
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    background-color: (43, 13, 13, 0.8);
+    color: #570505; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px #3b0202; 
+    margin-bottom: 25px;
+}
+
+h3 {  
+    color: #ffffff;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    text-align: justify;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.botonPrincipal {
+     text-align: right;
+     padding: 10px;
+}
+
+.boton{
+    display:inline-block;
+    padding: 10px 15px;
+    margin: 12px 0;
+    background-color: #ffffff;
+    color: #351c1c;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
