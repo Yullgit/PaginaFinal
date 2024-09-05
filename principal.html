@@ -6,32 +6,156 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Pagina </title>
     <link rel="stylesheet" href="estilos/estilos.css">
+    <script src="./JS/carrusel.js"></script>
 
 </head>
-<body>
-    <div class="botonPrincipal">
-        <a href="PaginasEnlazadas/quien_soy.html" class="boton">¿QUIEN SOY?</a>
-        <a href="PaginasEnlazadas/que_estudio.html" class="boton">¿QUE ESTUDIO?</a>
-        <a href="PaginasEnlazadas/gustos.html" class="boton">GUSTOS</a>
-        <a href="PaginasEnlazadas/expectativas.html" class="boton">¿EXPECTATIVAS?</a>
-        <a href="PaginasEnlazadas/contacto.html" class="boton">CONTACTO</a>
-    </div>
-    
 
-    <h1><i>¡Hola! soy Maira Yuliani Loaiza Casas, una mente curiosa en ingeniería</i></h1>
+<body>
+
     <div id="container">
+        <img src="./img/portada.png" class="imagenPortada">
+
+        <div class="botonPrincipal">
+            <a href="#quienSoy" class="boton">¿QUIEN SOY?</a>
+            <a href="#trayectoriaAcademica" class="boton">TRAYECTORIA ACADEMICA</a>
+            <a href="#gustosYAficiones" class="boton">GUSTOS Y AFICIONES</a>
+            <a href="#expectativas" class="boton">¿EXPECTATIVAS?</a>
+            <a href="#contacto" class="boton">CONTACTO</a>
+        </div>
         <div class="containerPequeño">
-            <img src="./img/Principal.jpg" class="imagenPrincipal">
-            <p>
-            <h3>Nacida un 13 de abril en el vibrante Caquetá-Colombia, soy una estudiante de ingenieria de sistemas
-                con una curiosidad insaciable por el mundo. </br>
-                Me apasiona descubrir nuevas ideas y aprender constamente,
-                siempre en busca de nuevas aventuras. </br>
-                ¡Acompañame en este viaje de autodescubrimiento y diversion! </br>
-            </h3>
-            </p>
+            <div class="texto">
+                <h1><i>¡Hola! soy Maira Yuliani Loaiza Casas <h6> estudiante de ingeniería de sistemas </h6></i></h1>
+            </div>
         </div>
     </div>
+
+
+    <section class="containerQuienSoy">
+        <div class="imagenPrincipal">
+            <img src="./img/Principal.png">
+        </div>
+        <div id="quienSoy">
+            <h2>¿QUIEN SOY?</h2>
+            <p>
+                Maira Loaiza, nacida el 13 de abril en el Caquetá-Colombia,</br>
+                es estudiante de ingenieria de sistemas, quien se caracteriza</br>
+                por siempre buscar, aprender y crecer en diferentes ambitos.</br>
+                Su vida academica y personal es una exploracion constante</br>
+                en donde cada día es una nueva oportunidad para descubrir</br>
+                y avanzar. </br>
+                <i>Cada paso la acerca más a lo que quiere lograr.</i></br>
+            </p>
+            <ul>
+                <li>Caracter</li>
+                <P> Es una persona alegre, educada y en ocasiones </br>
+                    un poco susceptible. Suele ser amable con todos.</br>
+                </P>
+            </ul>
+            <ul>
+        </div>
+    </section>
+
+
+    <div class="containerTrayactoriaAcademica">
+        <div class="carrusel">
+            <div class="containerCarrusel">
+                <img src="./img/FotoCarnet.jpg" alt="Imagen 1">
+                <img src="./img/acade.jpg" alt="Imagen 1">
+                <img src="./img/camp1.jpg" alt="Imagen 2">
+                <img src="./img/diplo1.jpg" alt="Imagen 3">
+                <img src="./img/gra1.jpg" alt="Imagen 4">
+                <img src="./img/cer1.jpg" alt="Imagen 5">
+            </div>
+            <button class="botonCarrusel up" onclick="moverCarrusel(-1)">&#9650;</button>
+            <button class="botonCarrusel down" onclick="moverCarrusel(1)">&#9660;</button>
+        </div>
+
+        <div class="textoTrayectoria">
+            <h2>TRAYECTORIA ACADEMICA</h2>
+            <p>
+                Maira Loaiza ha explorado diversos campos de estudio </br>
+                antes de encontrar pasión en la Ingeniería de Sistemas. </br>
+                A lo largo de su vida ha adquirido conocimientos en </br>
+                en diferentes áreas academicas, lo que le ha permitido </br>
+                desarrollar una perspectiva amplia y enriquecedora. </br>
+                Sin embargo, fue en esta carrera donde descubrió interés </br>
+                por la tecnología y la innovación. </br>
+                Ahora, con el final de sus estudios a la vista, está más </br>
+                que motivaada para aplicar todo lo aprendido y continuar </br>
+                creciendo en este apasionante campo y asi contribuir a un</br>
+                mejor mundo. </br>
+            </p>
+        </div>
+        <div class="imagenTrayectoria">
+            <img src="./img/comp.jpeg">
+        </div> 
+    </div>
+
+
+    <div class="containerGustos">
+        <div class="imagenGustos">
+            <img src="./img/aficio.jpg">
+        </div>
+        <section id="gustosYAficiones">
+            <h2> GUSTOS Y AFICIONES</h2>
+            <ul>
+                <li>
+                    <p>Le encanta viajar, conocer otras formas de vida.</br>
+                    </p>
+                </li>
+
+                <li>
+                    <p>Le gustan mucho los animales y la naturaleza.</br>
+                    </p>
+                </li>
+
+                <li>
+                    <p>Le gusta pasar el tiempo libre viendo peliculas </br>
+                        y comiendo. </br>
+                    </p>
+                </li>
+                <p>Entre otras cosas</p>
+            </ul>
+        </section>
+</div>
+
+
+    <div class="containerExpectativas">
+        <div class="imagenExpectativas">
+            <img src="./img/expextativas.jpeg">
+        </div>
+        <section id="expectativas">
+            <h2>EXPECTATIVAS</h2>
+            <P>Maira Loaiza siempre ha tenido grandes expectativas,</br>
+                tanto en su vida academica como personal. </br>
+                Con cada paso que da en su carrera profesional, pretende</br>
+                no solo adquirir conocimientos tecnicos, sino tambien </br>
+                desarrollar una vision mas creativa y critica que la </br>
+                acompañe en su vida. </br>
+                Asi mismo espera que al finalizar sus estudios, esté  </br>
+                preparada para contribuir de manera significativa en  </br>
+                su campo, mientras sigue explorando y viviendo nuevas </br>
+                oportunidades y horizontes. 
+            </P>
+        </section>
+    </div>
+
+
+    <section id="contacto" class="containerContacto">
+        <h2>CONTACTO</h2>
+        <div class="contactoLinks">
+            <a href="https://wa.me/573167727117" target="_blank">WhatsApp</a>
+            <a href="https://www.facebook.com/mairayuliany.loaizacasas/" target="_blank">Facebook</a>
+            <a href="mailto:maiyu13hd@gmail.com">Correo Electrónico</a>
+        </div>
+        <p class="contactoConclusion">
+            ¡Gracias por visitar mi página! </br>
+            No dudes en contactarme a través de cualquiera de las opciones anteriores.
+        </p>
+    </section>
+    
+
+
 
 </body>
 
